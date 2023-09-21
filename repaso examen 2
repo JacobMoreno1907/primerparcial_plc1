@@ -1,0 +1,9 @@
+Inversión=float(input("Inserte la cantidad de inversión"))
+tasa=float(input("Inserte el porcentaje de interés anual"))
+numa=float(input("Inserte el número de años"))
+Inversiónr=Inversión/numa
+tasagan=Inversiónr*tasa/100
+tasagana=tasagan*numa
+Total=Inversión+tasagana
+print("El interés ganado es",tasagana)
+print("El monto total después de la inversión",Total)
