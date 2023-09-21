@@ -1,0 +1,7 @@
+costo=float(input("Ingrese el costo de la comida"))
+propina=float(input("Ingrese la propina que desea dar"))
+propinasola=costo*propina/100
+total=costo+propinasola
+print("El monto total es",total)
+print("La propina dada es",propinasola)
+print("El costo original de la comida es",costo)
