@@ -1,0 +1,10 @@
+productop=float(input("Inserte la cantidad deseada de manzanas"))
+productos=float(input("Inserte la cantidad deseada de platanos"))
+manz=productop*5
+plat=productos*10
+Total=manz+plat
+desc=Total*0.20
+Totals=Total-desc
+print("El costo total es de",Total)
+print("Por ser una persona de la tercera edad tiene un cupón de descuento del 20%")
+print("Entonces su costo total es",Totals)
