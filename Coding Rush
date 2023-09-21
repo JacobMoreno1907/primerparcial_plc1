@@ -1,0 +1,5 @@
+p=print("Son 50 pesos")
+x=float(input("Deme un billete arriba de 50 por favor"))
+Total=x-50
+print("Fueron 50 pesos")
+print("Deme el cambio que es",Total)
